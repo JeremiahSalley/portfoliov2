@@ -3,10 +3,13 @@ import ReactTypingEffect from "react-typing-effect";
 
 function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <h1 className="text-6xl font-mono">Jeremiah Salley</h1>
+    <div className="min-h-screen flex items-center justify-center"
+    style={{
+        background: '#091c29'
+    }}>
+      <h1 className="text-6xl font-mono text-gray-300">Jeremiah Salley</h1>
       <ReactTypingEffect
-        className="mt-40 text-4xl font-mono"
+        className="mt-40 text-4xl font-mono text-gray-200"
         text={["Software Engineer"]}
         speed={100}
         eraseDelay={700}
