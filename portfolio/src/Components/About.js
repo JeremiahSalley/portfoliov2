@@ -5,7 +5,7 @@ function About() {
     <div
       className=" h-screen flex items-center justify-center"
       style={{
-        background: "#091c29",
+        background: '#0A192E'
       }}
     >
       <div className="border-double border-4 border-white text-white p-10 text-xl animate-pulse">

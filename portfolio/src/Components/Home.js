@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="h-screen flex items-center justify-center"
     style={{
-        background: '#091c29'
+        background: '#0A192E'
     }}>
       <h1 className="text-6xl font-mono text-gray-300">Jeremiah Salley</h1>
       <ReactTypingEffect
