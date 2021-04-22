@@ -86,7 +86,7 @@ function Contact() {
           </form>
         </div>
       </div>
-      <div className='grid grid-cols-1 gap-6'>
+      <div className='grid grid-cols-1 gap-6 cursor-pointer'>
         <GitHubIcon style={{ color: grey[300] }} fontSize="large" />
         <LinkedInIcon fontSize="large" style={{ color: grey[300] }} />
       </div>

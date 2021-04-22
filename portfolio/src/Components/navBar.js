@@ -17,7 +17,7 @@ function Navbar() {
           smooth={true}
           offset={0}
           duration={500}
-          className="p-14"
+          className="p-14 cursor-pointer"
         >
           Home
         </Link>
@@ -28,7 +28,7 @@ function Navbar() {
           smooth={true}
           offset={-50}
           duration={500}
-          className="p-14"
+          className="p-14 cursor-pointer"
         >
           About
         </Link>
@@ -39,7 +39,7 @@ function Navbar() {
           smooth={true}
           offset={-50}
           duration={500}
-          className="p-14"
+          className="p-14 cursor-pointer"
         >
           Portfolio
         </Link>
@@ -50,7 +50,7 @@ function Navbar() {
           smooth={true}
           offset={-50}
           duration={500}
-          className="p-14"
+          className="p-14 cursor-pointer"
         >
           Contact
         </Link>
