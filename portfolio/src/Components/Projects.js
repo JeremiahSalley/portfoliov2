@@ -4,13 +4,16 @@ import NbaGraph from "../images/nbaGraph.png";
 import Motivational from "../images/MotivationalQuotes.png";
 import NetflixClone from "../images/popcornTime.png";
 
+
 function Projects() {
   return (
+    <>
+    
     <div
       className="h-screen flex items-center justify-center text-white font-mono"
       style={{
         background: "#0A192E",
-      }}
+      }} id='/portfolio'
     >
       <div className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
         {/* <!--Card 1--> */}
@@ -106,6 +109,7 @@ function Projects() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
