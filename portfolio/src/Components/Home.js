@@ -6,16 +6,16 @@ function Home() {
   return (
     <>
       <div
-        className="h-screen flex items-center justify-center"
+        className="h-screen flex items-center justify-center "
         style={{
           background: "#0A192E",
         }}
         id="/"
       >
-        <h1 className="text-6xl font-mono text-gray-300">Jeremiah Salley</h1>
+        <h1 className="text-2xl font-mono text-gray-300 sm:text-left md:text-6xl">Jeremiah Salley</h1>
         <ReactTypingEffect
-          className="mt-40 text-4xl font-mono text-gray-200"
-          text={["Full Stack Web Developer"]}
+          className="mt-56 text-xs font-mono text-gray-200 sm:text-left md: text-4xl"
+          text={["Software Developer"]}
           speed={100}
           eraseDelay={700}
         />

@@ -33,7 +33,7 @@ max-width: 1100px;
 export const MobileIcon = styled.div`
   display: none;
 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 780px){
       display: block;
       position: absolute;
       top: 1.4rem;
@@ -49,9 +49,9 @@ export const NavMenu = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
-  margin-right: -22px;
+  margin-left: 15rem;
 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 780px){
       display: none;
   }
 `;
@@ -75,6 +75,7 @@ export const NavItem = styled.li`
   height: 80px;
   font-size: 1.4rem;
   padding: 14px;
+  
   
 `;
 

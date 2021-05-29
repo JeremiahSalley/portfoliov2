@@ -16,14 +16,14 @@ function App() {
   }
 
   return (
-    <>
+    <div style={{ background: "#0A192E",}}>
       <Navbar toggle={toggle}/>
       <SideBar isOpen={isOpen} toggle={toggle}/>
       <Home />
       <About />
       <Projects />
       <Contact />
-    </>
+    </div>
   );
 }
 

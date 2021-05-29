@@ -1,5 +1,5 @@
 import React from "react";
-import profilepic from "../images/profilepic.JPG";
+// import profilepic from "../images/profilepic.JPG";
 
 function About() {
   return (
@@ -26,7 +26,7 @@ function About() {
             <br />
             and develope new skills and concepts.
           </p>
-          <ol className="list-disc mt-6 grid justify-center grid-cols-4 ">
+          <ol className="list-disc mt-6 grid justify-center grid-cols-2  lg:grid-cols-4 ">
             <li>Html</li>
             <li>Css</li>
             <li>JavaScript es6</li>
@@ -37,9 +37,9 @@ function About() {
             <li>Python</li>
           </ol>
         </div>
-        <div className="border-double border-4 border-white ml-6">
-          <img src={profilepic} alt="profilepic" className="float-right w-72" />
-        </div>
+        {/* <div className="border-double border-4 border-white ml-6 lg: visible">
+          <img src={profilepic} alt="profilepic" className="float-right w-72 " />
+        </div> */}
       </div>
     </>
   );
